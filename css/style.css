@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(90deg, #ff416b, #ff4a2c, #ff416b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 0 50px;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.container form {
+  margin: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container form input {
+  border: none;
+  outline: none;
+  height: 15px;
+  width: 200px;
+  background-color: #17171713;
+  border-radius: 17px;
+  margin: 13px;
+  padding: 12px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
+}
+
+.container form input[type="submit"] {
+  height: 30px;
+  padding: 0;
+  width: 90px;
+  color: white;
+  background-color: #ff416b;
+  cursor: pointer;
+}
+
+.container form :nth-child(3) {
+  font-size: 13px;
+  margin: -5px 0 15px 0;
+  opacity: 0.6;
+}
+
+.container form :nth-child(5) {
+  color: #000000b5;
+  font-size: 14px;
+}
+
+.container form .other-sign-in-options i {
+  color: #000000b5;
+  font-size: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+}
